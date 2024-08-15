@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.playerButtons {
+  border: 3px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.playerButtons button {
+  padding: 5px;
+  margin: 10px;
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.playerButtons button:hover {
+  color: #fff;
+  background-color: black;
+}
+
+.scoreBoard {
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.player,
+.computer {
+  margin: 40px;
+  padding: 5px;
+  width: 80px;
+}
+.player-score,
+.computer-score {
+  font-size: 64px;
+}
+
+.updates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
